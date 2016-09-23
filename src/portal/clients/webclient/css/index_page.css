@@ -1,0 +1,23 @@
+
+.ui-index-page
+{
+ position:absolute;
+ width:99.8% !important;
+ height:99.8% !important;
+ background-color: #d9d9d9; 
+ background-size:100% 100%;
+ background-repeat: no-repeat;
+ margin:0px auto;
+}
+
+.ui-index-page .ui-index-content
+{
+	width:100%;
+	height:100%;
+	border:1px solid #eee;
+}
+
+.ui-index-page div.ui-index-content > div
+{
+	height:auto !important;
+}

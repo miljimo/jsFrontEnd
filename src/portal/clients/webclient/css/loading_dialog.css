@@ -1,0 +1,42 @@
+.ui-portal-loading-dialog
+{
+  margin:0px;
+  padding:0px;
+  position:absolute;
+}
+
+.ui-portal-loading-dialog .ui-content
+{
+  border:1px solid #eee;
+  overflow:hidden;
+}
+
+.ui-portal-loading-dialog .ui-content  .ui-icon-image
+{
+	height: 60px;
+	width: 60px;
+	position: relative;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	background-color: transparent;
+	background-position: center center;
+	background-image:url("../images/icons/ripple.gif");
+}
+
+.ui-portal-loading-dialog .ui-content .ui-message{
+	position: relative;
+	bottom: 0px;
+	display: block;
+	text-align: center;
+	background-color: transparent;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.ui-portal-loading-dialog .ui-content .ui-reloading-message
+{
+	color:#800000;
+	font-size:0.7em;	
+	text-align: center;
+	
+}

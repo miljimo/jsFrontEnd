@@ -1,0 +1,20 @@
+/*
+user_register_dialog.css
+*/
+
+.ui-user-register-dialog
+{
+
+  
+}
+
+.ui-user-register-dialog .ui-container .ui-content{
+	padding:20px 0px 20px 0px !important;
+}
+
+
+@media only screen and (min-width: 866px) {
+	.ui-user-register-dialog .ui-container {
+	 width:600px;
+   }
+}

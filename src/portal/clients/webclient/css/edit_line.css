@@ -1,0 +1,101 @@
+/*
+@file edit_line.css
+*/
+
+.edit{
+	background-color:#e6e6e6;
+	background-color:rgb(230, 230, 230);
+	background-color:rgba(230, 230, 230,0.8);
+	width:96.8%;
+	height:35px;
+	padding:0px;
+	margin-bottom:2px;
+}
+
+
+
+
+.edit.edit-text-control-ui {
+	overflow:hidden
+}
+.edit .edit-label{
+	position:absolute;
+	padding-left:10px;	
+	text-align:left;
+	display:none;
+	float:left;
+	font-size:0.7em;
+	border:0px solid #000;
+}
+.edit .edit-label,
+.edit .edit-loading-indicator
+{
+	position:relative;
+	background-size:10px 10px;
+	background-repeat: no-repeat;
+	margin:0px;
+	color:#737373;
+	border:0px solid #000 ;
+	background-color:transparent ;
+	padding:2px;
+}
+
+
+.edit .edit-loading-indicator
+{
+	position:relative;
+	display:block;
+	float:right;
+	width:25px;
+	height:25px;
+	border:0px solid #000 ;
+	right:0px;
+	text-align:center;
+	background-image:url("../images/icons/ball_pen.png");
+	background-position:center center;
+	margin:0px !important;
+
+}
+
+.edit .edit-loading-indicator.password-icon{
+	background-image:url("../images/icons/password_key_backward.png");
+}
+
+.edit.edit-text-control-ui input{
+	float:left;
+	padding-left:10px;
+	color: #666666
+
+}
+
+.edit input
+{
+ border:0px solid #000 ;
+ background-color:transparent ;
+ margin:0px;
+ height:30px;
+}
+.edit input:focus, .edit input:hover{
+	border:0px ;
+}
+
+
+@media only screen and (min-width: 866px)
+{
+	.edit .edit-label{
+        display:block;
+        float:left;
+        padding-top:3px ;
+        text-align:center;
+        overflow:hidden;
+        font-size:0.8em;
+        
+	}
+	.edit input{
+		 margin-left:3px ;
+	}
+	.edit.edit-text-control-ui input
+	{
+		width:50%;
+	}
+}

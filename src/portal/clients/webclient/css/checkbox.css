@@ -1,0 +1,60 @@
+
+/**
+@file checkbox.css
+@author obaro
+*/
+
+
+.checkbox-ui
+{
+  position:relative;
+  background-color:transparent;
+  overflow:hidden;
+  width:98.0%;
+  margin:10px auto;
+ cursor:pointer;
+}
+.checkbox-ui .checkbox-ui-icon, 
+.checkbox-ui .checkbox-ui-ident
+{
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-color:transparent;
+	height:25px;
+}
+
+.checkbox-ui .checkbox-ui-wrapper{
+	float:left;
+	width:10%;
+	background-size:25px 25px;
+	width:40px;	
+}
+.checkbox-ui .checkbox-ui-wrapper input{
+	height:20px;
+	border-radius:5px;
+}
+.checkbox-ui .checkbox-ui-ident{
+	float:right;
+	width:30px;
+	background-size:15px 15px;
+	content:"";
+	background-image:url("../images/icons/thumb_good.png");
+	display:none;
+}
+
+.checkbox-ui .checkbox-ui-content
+{
+	width:auto;
+	padding-left:2px;
+	padding-top:1px;
+	font-style:italic;
+	color: #808080;
+	overflow:hidden;
+	font-size:0.8em;
+}
+.checkbox-ui > div{
+  float:left;
+  margin:0px;
+  border:0px; 
+
+}

@@ -1,0 +1,90 @@
+/**
+@file btn_fancy.css
+*/
+
+.btn-control-ui
+{
+  position:relative;
+  border:0px solid #eee;
+  background-color:#eee;
+  width:90.9%;
+  padding:0px;
+  border-radius:2px;
+  overflow:hidden;
+  margin:2px;
+  margin-bottom:5px;
+}
+
+.btn-control-ui:hover {
+-webkit-box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.99);
+-moz-box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.99);
+ box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.99);
+}
+
+.btn-control-ui .btn-icon,
+.btn-control-ui .btn-loading-indicator
+{
+	position:relative;
+	background-size:15px 15px;
+	background-repeat: no-repeat;
+	background-color:transparent;
+	width:30px;
+	height:25px;
+	display:block;
+	background-position:center center;
+	margin:0px;
+}
+
+.btn-control-ui .btn-icon
+{
+	border:0px;
+	border-right:1px solid #d9d9d9 ;
+	float:left;	
+	background-color:transparent !important;
+	background-image:url("../images/icons/kickingoff.png");
+	background-size:20px 20px;
+	margin:0px;
+}
+
+.btn-control-ui input[type='button'],
+.btn-control-ui input[type='submit']
+{
+  border:0px !important;
+  padding:3px 2px 0px 5px;
+  background-color:transparent !important;
+  float:left;
+  font-family: "Times New Roman", Times, serif;
+  font-family:"Lucida Console", Monaco, monospace;
+  font-weight:bold;
+  text-align:center;
+}
+
+.btn-control-ui:hover , .btn-control-ui .btn-icon:hover, .btn-control-ui input:hover
+{
+	cursor:pointer;
+}
+
+
+.btn-control-ui .btn-icon
+{
+background-color:#f2f2f2 ;
+background-color:rgb(242, 242, 242) ;
+background-color:rgba(242, 242, 242,0.8);
+}
+
+.btn-control-ui .btn-loading-indicator
+{
+	position:relative;
+	float:right;
+	border:0px solid red;	
+	background-image:url("../images/icons/right_circle_arrow.png");
+	background-color:transparent !important;
+	margin:0px;
+}
+
+
+@media only screen and (min-width: 866px) {
+	.btn-control-ui{
+     
+	}
+}

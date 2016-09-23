@@ -1,0 +1,259 @@
+
+
+.ui-dialog{
+    position:absolute; 
+    padding:0px;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+	
+}
+.ui-dialog .ui-container
+{
+    position:absolute;
+    display:block;
+	  width:95.0%;
+    height:auto;
+    background-repeat: no-repeat;
+    overflow:hidden ;
+    border:0px;    
+    background-color: #e6e6e6 ;
+    background-color:rgb(230, 230, 230) ;
+    background-color:rgba(230, 230, 230,0.8);   
+    overflow:hidden;
+}
+
+
+/**
+Style the dialog header here
+*/
+.ui-dialog .ui-container .ui-header{
+	display:block;
+	padding:15px;
+  border-bottom:1px solid #d9d9d9;
+  margin-bottom:10px;
+}
+
+.ui-dialog .ui-container .ui-header .ui-title
+{
+	color:#4d4d4d;
+  font-weight:bold;
+  display:block;
+}
+
+.ui-dialog .ui-container .ui-content{
+    margin:10px auto  10px auto;
+    overflow:hidden;
+}
+
+
+.ui-dialog .ui-container .ui-content .ui-message
+{
+	margin:0px auto;
+	padding:1px;
+}
+
+.ui-dialog .ui-container  .ui-footer
+{
+  font-size:0.8em;
+  font-style: italic;
+  overflow:hidden;
+  border:0px solid red;
+  position:relative;
+  margin: 0px auto 10px auto;
+}
+
+
+.ui-dialog .ui-container  .ui-footer .btn{
+   width:80.80%; 
+   margin:0px auto;
+}
+
+.ui-dialog .ui-container .ui-login-content,
+.ui-dialog .ui-container .ui-footer
+{
+	overflow:hidden;
+  padding:0px;
+}
+
+
+/**
+Content styling
+*/
+
+.ui-dialog .ui-container .ui-content{		
+	background-color:#ffffff;
+	background-color:rgb(255, 255, 255);
+	background-color:rgba(255, 255, 255,0.7);
+	margin:1%  auto;
+  padding-bottom:20px;
+}
+
+.ui-dialog .ui-container .ui-content  .ui-message{
+  padding:4px 2px 4px 15px;
+  font-size:0.8em;
+}
+
+.ui-dialog .ui-container .ui-content  .edit{
+  background-color: #e6e6e6 ;
+  background-color:rgb(230, 230, 230) ;
+  background-color:rgba(230, 230, 230,0.8); 
+  border-radius:2px;
+  width:80.80%;
+  margin:0px auto;
+ 
+}
+.ui-dialog .ui-container .ui-content  .edit  input{
+  width:83%;
+
+}
+.ui-dialog .ui-container .ui-content  .edit .edit-label
+{
+  width:110px;
+  text-align:left;
+  padding-top:8px;
+  padding-left:5px;
+  border-right:1px solid #ccc;
+  height:30px;
+
+}
+
+  .ui-dialog .ui-container .ui-content .ui-control label, 
+  .ui-dialog .ui-container .ui-content .ui-control input
+  {
+  	float:left;
+  	width:auto !important;
+  	border-bottom:0px solid #f2f2f2;  
+  }
+
+
+
+
+
+
+
+
+.ui-dialog.ui-modal-dialog{
+    position: fixed !important;
+  }
+/**********************************************************************************************
+The desktop style starts here 
+
+
+*/
+
+@media only screen and (min-width: 866px) {
+  .ui-login-dialog
+  {
+    position:relative;
+  	overflow:hidden;
+    width:auto ;
+    height:auto;
+  }
+
+  .ui-dialog .ui-container
+  {
+    position:relative;
+  	height:auto;
+  }
+
+  .ui-dialog .ui-container.ui-modal-content
+  {
+    box-shadow:0px 0px 0px  #b3b3b3;
+  }
+
+   .ui-dialog .ui-header
+   {
+   	display:block;   	
+   	overflow:hidden;
+   }
+   .ui-dialog .ui-header div
+   {
+   	 float:left;
+   	 overflow:hidden;
+   	 background-image:url("../images/icons/admin.png");
+   	 background-repeat: no-repeat;
+   	 background-position:1px center;
+   	 background-size: 22px 22px;
+   	 padding-left:35px;   	 
+   	
+   }
+
+  .ui-dialog .ui-header .ui-title{
+  	overflow:hidden;
+  	height:auto;
+  }
+  .ui-dialog .ui-container .ui-header .ui-icon
+  {
+   display:none;
+  }
+ 
+  .ui-dialog .ui-container
+  {
+    width:40%;
+    
+  }
+  .ui-dialog .ui-container .ui-content,
+  .ui-dialog .ui-container .ui-footer{
+    padding:0px 10px 0px 10px;    
+  }
+
+  .ui-dialog .ui-container .ui-content .ui-control
+  {
+    margin:0px 0px 0px 0px !important;
+
+  }
+
+  .ui-dialog .ui-container .ui-content .ui-control input
+  {
+    background-image:none !important;
+    padding-left:0px !important;
+  }
+
+  .ui-dialog .ui-container .ui-content .edit{
+    width:98.9%;
+   
+  }
+ .ui-dialog .ui-container .ui-content  .edit  input{
+  width:70%;
+
+}
+
+.ui-dialog .ui-container .ui-content .ui-control label
+  {
+  	display:block ;
+  	color:#8c8c8c ;
+  	border-right:1px solid #eee ;
+  	margin-right:5px;
+  }
+
+
+.ui-dialog .ui-footer{
+    overflow:hidden;
+   
+  }
+
+.ui-dialog .ui-container  .ui-footer .btn{
+  position:relative;
+  display:block;
+  float:left;
+  width:200px;
+}
+
+
+}
+
+.ui-dialog.ui-modal-class{
+	  width:100% !important;
+    height:100% !important;
+     /*display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(204, 204, 204); /* Fallback color */
+    background-color: rgba(204, 204, 204,0.8); /* Black w/ opacity */
+    background-position: 0px 0px;
+}

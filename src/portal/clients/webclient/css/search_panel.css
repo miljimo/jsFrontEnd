@@ -1,0 +1,292 @@
+/**
+search_panel.css
+*/
+.ui-search-panel
+{
+  position:relative;
+  overflow:hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding:1px;
+  background-color:transparent;
+}
+.ui-search-panel .ui-search-panel-control
+{
+ background-color:#e6e6e6;
+ border:1px solid  #eee;
+}
+.ui-search-panel .ui-search-panel-control,
+.ui-search-panel .ui-search-panel-buttons
+{
+	display:block;
+	position:relative;
+	width:98.8%;
+	margin:1px auto 1px auto;
+	float:left;
+	background-color:#eee;
+	
+}
+
+.ui-search-panel .ui-search-panel-control:first-child{
+	background-color:#fff;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+	overflow:hidden;
+}
+
+.ui-search-panel .ui-search-panel-control:first-child input{
+	border:0px solid #eee;
+	float:left;
+	width:auto;	
+}
+.ui-search-panel .ui-search-panel-control:first-child input[type='search']
+{
+	 width:99.9%;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-image: url("../images/icons/search-icon.png") !important;
+	background-size: 25px 25px;
+	background-position:10px center;
+	background-repeat: no-repeat;
+	margin:1px auto;
+	font-size:1.2em;
+	padding:10px 10px 10px 45px;
+
+}
+
+.ui-search-panel .ui-search-panel-control:first-child input[type='button']
+{
+	float:right;
+	width:15%;
+	padding:5px;
+	overflow:hidden;
+	border:0px;
+	display:none;
+}
+.ui-search-panel .ui-search-panel-buttons 
+{
+	
+  border:0px;
+  background-color:#d9d9d9 ;
+  background-color:rgb(217, 217, 217) ;
+  background-color:rgba(217, 217, 217,0.8);
+  width:65px;
+  -webkit-border-bottom-right-radius: 100px;
+	-webkit-border-bottom-left-radius: 100px;
+	-moz-border-radius-bottomright: 100px;
+	-moz-border-radius-bottomleft: 100px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+  display:none;
+}
+
+.ui-search-panel .ui-search-panel-buttons .ui-search-settings-control{
+   float:left;
+   font-size:0.7em;
+  border:0px solid #eee;
+  overflow:hidden;
+}
+.ui-search-panel .ui-search-panel-buttons .ui-search-settings-control.ui-arrow-down
+{
+	background-color:#f2f2f2;
+	background-color: rgb(242, 242, 242);
+	background-color: rgba(242, 242, 242,0.9);
+	background-size: 200px 200px;
+	background-position:center 80%;
+	background-repeat: no-repeat;
+	-webkit-border-bottom-right-radius: 100px;
+	-webkit-border-bottom-left-radius: 100px;
+	-moz-border-radius-bottomright: 100px;
+	-moz-border-radius-bottomleft: 100px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	margin:0px auto;
+	width:100%;
+
+
+}
+
+.ui-search-panel .ui-search-panel-buttons .ui-search-settings-control input[type='button'],
+.ui-search-panel .ui-search-panel-buttons .ui-search-settings-control input[type='submit']
+{
+	background-color:transparent;
+	border:0px;
+	
+}
+
+.ui-search-panel .ui-search-panel-buttons .ui-search-settings-control .ui-btn-settings{
+	background-image:url("../images/icons/settings_icon.png");
+	background-size: 15px 15px;
+	background-position:center 70%;
+	background-repeat: no-repeat;
+	padding:4px;
+	padding-bottom:20px;
+	color:#404040;
+	font-weight: bold;
+	font-size:0.9em;
+	text-align:center;
+}
+
+.ui-search-panel .ui-search-panel-settings,.ui-search-panel .ui-search-panel-results
+{
+	display:none;
+	position: fixed;	
+	border:0px solid #eee;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 5px;
+    width:98.9%;
+    margin:50px auto;
+}
+.ui-search-panel .ui-search-panel-settings
+{
+	background-color:#f2f2f2;
+	background-color:rgb(242, 242, 242);
+	background-color:rgba(242, 242, 242,0.8);
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-header
+{
+	background-color:#d9d9d9;
+	background-color:rgb(217, 217, 217);
+	background-color:rgba(217, 217, 217,0.8);	
+	font-weight:bold;
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-header,
+ .ui-search-panel .ui-search-panel-results .ui-search-result-header
+{
+	
+	height:30px;
+	padding: 5px 5px 5px 75px;
+	color:#4d4d4d;
+
+}
+
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content,.ui-search-panel .ui-search-panel-results  .ui-search-result-content{
+	padding:10px;
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	margin-top:2px;
+
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control span{
+	display:block;
+	overflow:hidden;
+	margin-top:2px;
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control label,
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control span label{
+ width:100%
+ border:0px solid #000;
+ display:block;
+}
+
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control input[type=''],
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control input[type='text'],
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control select{
+width:98.9%;
+height:30px;
+border:0px;
+padding-left:10px;
+display:block;
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control input[type='number']{
+	width:98.9%;
+	height:30px;
+	border:0px;
+	padding-left:10px;
+	display:block;
+}
+.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control select{
+ width:99.7%;
+ padding:5px;
+}
+
+.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='button'],
+.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='submit']
+	{
+       border:0px solid #eee !important;
+       display:block;	
+		border:0px solid #000;
+		height:30px;
+		width:100%;
+		padding:5px;
+		background-color:#79a6d2;
+		margin:0px;
+		float:left;
+		border-radius:5px;
+		-webkit-box-shadow: -1px 0px 3px -2px rgba(8,4,8,0.58);
+	  -moz-box-shadow: -1px 0px 3px -2px rgba(8,4,8,0.58);
+	  box-shadow: -1px 0px 3px -2px rgba(8,4,8,0.58);
+	  color:#fff;  
+	}
+
+
+
+
+
+
+@media only screen and (min-width: 866px){
+
+    .ui-search-panel{
+    	width:80%;
+    	margin:10px auto !important;
+    }
+	.ui-search-panel .ui-search-panel-settings
+	{
+		width:auto !important;
+
+	}
+
+	.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content
+	{
+		
+		margin:5px auto;
+	}
+
+	.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control
+	{
+      display:block !important;
+
+	}
+	.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control label,
+	.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control span label
+	{
+       float:left;
+       width:110px !important;
+       font-size:0.8em;
+	}
+    .ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type=''],
+    .ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='text'],
+    .ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='number'],
+    .ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control select,
+	.ui-search-panel .ui-search-panel-settings .ui-search-settings-content .ui-search-settings-control span input[type='number']
+	{
+       float:right;
+       width:200px !important;
+
+	}
+	.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control select{
+		width:210px !important;
+	}
+
+	.ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='button'],
+    .ui-search-panel .ui-search-panel-settings  .ui-search-settings-content  .ui-search-settings-control input[type='submit']{
+    	width:100px;
+    	margin-left:2px;
+    }
+
+
+
+}

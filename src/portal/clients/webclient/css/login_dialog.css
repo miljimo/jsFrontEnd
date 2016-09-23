@@ -1,0 +1,24 @@
+
+
+.user-login-ui {
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+   
+
+}
+
+
+@media only screen and (min-width: 866px) {
+
+  .user-login-ui
+  {
+   
+  }
+  .user-login-ui  .ui-container
+  {
+     width:30%;
+     margin:auto;
+  }
+  
+}
